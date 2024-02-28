@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: ["https://portfolio-client-8r3k.onrender.com"],
+        origin: ["https://portfolio-client-wine.vercel.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })
