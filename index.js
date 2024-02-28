@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: ["http://localhost:3000"],
+        origin: ["https://portfolio-client-8r3k.onrender.com"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })
