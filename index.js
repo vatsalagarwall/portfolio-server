@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(
     cors({
-        origin: ["https://portfolio-vatsal.vercel.app/"],
+        origin: ["https://portfolio-vatsal.vercel.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })
